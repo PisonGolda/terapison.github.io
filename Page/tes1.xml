@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>This is for U</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo-container">
+				<img src="./img/logo.svg" alt="logo" />
+				<h4 class="logo">Cookie</h4>
+			</div>
+			<nav>
+				<ul class="nav-links">
+					<li><a class="nav-link" href="#">Home</a></li>
+					<li><a class="nav-link" href="#">Story</a></li>
+					<li><a class="nav-link" href="#">Others</a></li>
+				</ul>
+			</nav>
+			<div class="cart">
+				<img src="./img/present-svgrepo-com.svg" alt="cart" />
+			</div>
+		</header>
+
+		<main>
+			<section class="presentation">
+				<div class="introduction">
+					<div class="intro-text">
+						<h1>Happy Birthday, Hermione!</h1>
+						<p>
+							This is my little present for you, i hope u like it:)
+						</p>
+					</div>
+					<div class="cta">
+						<a href="index copy.html">
+							<button class="cta-select">Cute Game</button>
+						</a>
+						<button class="cta-add">Short Video</button>
+					</div>
+				</div>
+				<div class="cover">
+					<img src="./img/cake-svgrepo-com.svg" alt="matebook" />
+				</div>
+			</section>
+
+			<div class="laptop-select">
+				<img src="./img/arrow-left.svg" alt="" />
+				<img src="./img/dot.svg" alt="" />
+				<img src="./img/dot-full.svg" alt="" />
+				<img src="./img/dot-full.svg" alt="" />
+				<img src="./img/arrow-right.svg" alt="" />
+			</div>
+
+			<img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+			<img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
+			<img class="small-circle" src="./img/small-eclipse.svg" alt="" />
+		</main>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="app2.js"></script>
+	</body>
+</html>
